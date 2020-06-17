@@ -181,7 +181,7 @@ switch(X.typeflag)
             [ii,jj,ss2] = find(imag(getbase(B)));
             ss = [ss1;ss2];
             DynamicalRange = [num2str( min(abs(ss))) ' to ' num2str( max(abs(ss)))];
-            info = [info '\nCoeffiecient range: ' DynamicalRange];                      
+            info = [info '\nCoefficient range: ' DynamicalRange];                      
             fprintf([classification num2str(n) 'x' num2str(m) info '\n']);
         end;
     case 1
